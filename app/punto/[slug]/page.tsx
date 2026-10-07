@@ -20,7 +20,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: punto.titulo,
     description: punto.resumen,
-    openGraph: { title: punto.titulo, description: punto.resumen, type: "article", locale: "es_ES", siteName: "Vota informado" },
+    openGraph: {
+      title: punto.titulo,
+      description: punto.resumen,
+      type: "article",
+      locale: "es_ES",
+      siteName: "Vota informado",
+      url: `/punto/${punto.slug}`,
+    },
   };
 }
 

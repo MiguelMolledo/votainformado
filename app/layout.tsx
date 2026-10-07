@@ -8,7 +8,13 @@ const serif = Source_Serif_4({ subsets: ["latin"], weight: ["400", "600", "700"]
 const sans = Public_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--fuente-sans", display: "swap" });
 const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--fuente-mono", display: "swap" });
 
+// En Vercel, el dominio de producción del proyecto; en local, el servidor de desarrollo.
+const BASE = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "http://localhost:3000";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE),
   title: { default: "Vota informado", template: "%s · Vota informado" },
   description:
     "Ocho años de Gobierno, punto por punto: cada hecho con su dato, su letra pequeña y su fuente, antes de las elecciones del 29 de noviembre de 2026.",
@@ -18,7 +24,9 @@ export const metadata: Metadata = {
     locale: "es_ES",
     type: "website",
     siteName: "Vota informado",
+    url: "/",
   },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
