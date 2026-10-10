@@ -854,3 +854,99 @@ h3 {
     font-size: 20px;
   }
 }
+
+/* Partidos */
+.partidos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr));
+  gap: 24px;
+  align-items: start;
+}
+.partido {
+  border: 1px solid var(--borde);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--blanco);
+}
+.partido-banda {
+  background: var(--partido);
+  color: var(--sobre);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 10px 20px;
+  font: 700 18px var(--sans);
+  letter-spacing: 0.02em;
+}
+.partido-banda .mono {
+  font-size: 13px;
+  font-weight: 500;
+}
+.partido-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border-bottom: 1px solid var(--regla);
+}
+.partido-foto {
+  width: 96px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 3px;
+  flex: 0 0 auto;
+  border-bottom: 4px solid var(--partido);
+}
+.partido h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.15;
+  margin: 0 0 6px;
+}
+.partido-candidato {
+  margin: 0;
+  color: var(--tinta-2);
+  font-size: 15px;
+}
+.propuestas {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+}
+.propuestas li {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--regla);
+}
+.propuestas li:last-child {
+  border-bottom: 0;
+}
+.propuesta-n {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background: var(--partido);
+  color: var(--sobre);
+  font: 500 15px var(--mono);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propuestas p {
+  margin: 4px 0 0;
+}
+.propuesta-origen {
+  font-size: 13px;
+  color: var(--tinta-2);
+}
+.partido-credito {
+  margin: 0;
+  padding: 12px 20px 16px;
+  font-size: 12px;
+  color: var(--tinta-2);
+  background: var(--papel);
+  border-top: 1px solid var(--regla);
+}

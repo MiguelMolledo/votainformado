@@ -93,6 +93,17 @@ Página `/impuestos` y dos puntos nuevos del balance.
 
 La cronología no es exhaustiva: no incluye tributos autonómicos ni municipales, ni cambios menores.
 
+## Partidos (añadido el 10 de octubre de 2026)
+
+Página `/partidos`: diez propuestas de PP, PSOE y Vox.
+
+- **Ningún programa oficial publicado.** A 10 de octubre de 2026 los partidos no han presentado programa para el 29-N (el PSOE lo aprueba en su Comité Federal del 17 de octubre). Todo lo recogido son propuestas anunciadas, tomadas de prensa, no de un documento del partido. Hay que rehacer la página cuando se publiquen.
+- **Fuentes por partido.** PP: El Debate, Forbes y Nueva Radio, sobre anuncios de Feijóo de octubre de 2026. PSOE: Diario Socialista (decretos de vivienda de octubre de 2026), Forbes y la crónica del 41.º Congreso de 2024; cuatro de sus diez puntos son resoluciones de ese congreso, no compromisos de esta campaña. Vox: Euronews, Forbes y una iniciativa parlamentaria de febrero de 2026.
+- **Sin leer en la fuente original.** La página de Vox con la iniciativa de febrero de 2026 rechaza la consulta automática; su contenido se ha tomado del resumen del buscador. Las propuestas económicas de Vox proceden de un único artículo de Forbes.
+- **Escaños de 2023** (137, 121 y 33): de memoria, sin segunda comprobación.
+- **La selección de diez es editorial.** No existe una lista oficial de «las diez más relevantes» de ningún partido.
+- **Fotos.** Las tres proceden de Wikimedia Commons con licencia que permite reutilizarlas: Feijóo (CC0, Partido Popular), Sánchez (atribución, Pool Moncloa / Carlos Spottorno de las Morenas) y Abascal (CC BY-SA 2.0, Gage Skidmore). Están recortadas y reducidas; el crédito figura bajo cada lista.
+
 ## Enlaces
 
 `npm run comprobar` revisa todos los enlaces. En la última pasada respondían 99 de 102; dos (Euronews e Iberley) rechazan robots y el PDF de la AIReF falla desde el script pero abre en el navegador.

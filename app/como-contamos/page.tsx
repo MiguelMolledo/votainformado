@@ -83,8 +83,9 @@ export default function ComoContamos() {
 
       <h2>Lo que no cubre</h2>
       <p>
-        Quedan fuera las competencias exclusivas de comunidades y ayuntamientos, salvo cuando ayudan a entender un punto. Tampoco
-        se valoran los programas electorales ni lo que haría cada partido.
+        Quedan fuera las competencias exclusivas de comunidades y ayuntamientos, salvo cuando ayudan a entender un punto. Los
+        programas electorales no se valoran: la página <Link href="/partidos">Partidos</Link> solo recoge, sin juzgarlas, las
+        propuestas que han anunciado los tres partidos con más escaños.
       </p>
 
       <h2>Actualización</h2>
