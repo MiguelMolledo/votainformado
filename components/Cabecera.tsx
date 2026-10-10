@@ -13,6 +13,7 @@ export function Cabecera() {
           </Link>
           <nav className="nav" aria-label="Principal">
             <Link href="/">Balance</Link>
+            <Link href="/impuestos">Impuestos</Link>
             <Link href="/#tribunales">Tribunales</Link>
             <Link href="/como-contamos">Cómo contamos</Link>
             <Cuenta />

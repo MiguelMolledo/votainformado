@@ -110,6 +110,14 @@ export default async function Ficha({ params }: Props) {
         </section>
       ) : null}
 
+      {punto.enlace ? (
+        <p className="seccion">
+          <Link href={punto.enlace.href} className="boton">
+            {punto.enlace.texto}
+          </Link>
+        </p>
+      ) : null}
+
       <section className="fuentes">
         <h2 className="rotulo">Fuentes</h2>
         <ul>

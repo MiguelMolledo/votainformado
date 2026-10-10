@@ -29,6 +29,7 @@ Todo el contenido vive en `data/`:
 | `data/favor.ts` | Puntos a favor (con letra pequeña y que se sostienen) |
 | `data/contra.ts`, `data/otros.ts` | Puntos en contra, causas en los tribunales y decisiones a debate |
 | `data/puntos.ts` | Une las listas y calcula el recuento |
+| `data/impuestos.ts` | Cronología de cambios de impuestos y cotizaciones (página `/impuestos`) |
 
 El recuento de la portada se calcula a partir de los datos: añadir, quitar o mover un punto lo actualiza solo.
 

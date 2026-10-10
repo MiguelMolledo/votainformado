@@ -55,6 +55,8 @@ export interface Punto {
   legal?: string;
   /** Brecha medible que sigue abierta. */
   pendiente?: string;
+  /** Página de la web que amplía el punto. */
+  enlace?: { texto: string; href: string };
   fuentes: Fuente[];
 }
 
@@ -128,5 +130,5 @@ export const TEMAS: Record<Tema, string> = {
   emergencias: "Emergencias",
 };
 
-export const ACTUALIZADO = "7 de octubre de 2026";
+export const ACTUALIZADO = "10 de octubre de 2026";
 export const FECHA_ELECCIONES = "2026-11-29";

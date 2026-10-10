@@ -2,6 +2,55 @@ import type { Punto } from "./tipos";
 
 export const MAS_CONTRA: Punto[] = [
   {
+    slug: "irpf-sin-ajustar-a-la-inflacion",
+    grupo: "contra-matices",
+    tema: "economia",
+    solidez: "Estudio del Banco de España",
+    titulo: "El IRPF sube sin que nadie lo vote",
+    resumen: "Al no ajustar el IRPF a la inflación, el tipo medio que se paga subió del 12,8 % al 14,7 % entre 2019 y 2023.",
+    cifras: [
+      { valor: "14,7 %", nota: "1", texto: "de tipo medio efectivo del IRPF en 2023. En 2019 era el 12,8 %" },
+      { valor: "2.294 M€", nota: "2", texto: "más ingresó Hacienda en 2025 por no ajustar el impuesto, según el Gobierno" },
+    ],
+    notas: [
+      {
+        marca: "1",
+        texto:
+          "Según el Banco de España, la mitad del aumento de la recaudación del IRPF entre 2019 y 2023 se debe a no actualizar el impuesto con los precios. Pesa más en las rentas medias y medias-altas.",
+      },
+      { marca: "2", texto: "El Gobierno ha comunicado a Bruselas que no lo ajustará al menos hasta 2028. La AIReF calcula 12.600 millones más entre 2025 y 2031." },
+      {
+        marca: "+",
+        texto: "Las comunidades autónomas deciden la mitad de la escala y pueden ajustarla por su cuenta. Los sueldos más bajos sí tuvieron rebajas en 2023 y 2024.",
+      },
+    ],
+    entradilla:
+      "Si los precios y los sueldos suben y los tramos del IRPF no se mueven, cada contribuyente paga un porcentaje mayor de su renta sin haber ganado poder de compra. No hace falta aprobar ninguna ley.",
+    comoPaso: [
+      "Entre 2021 y 2023 la inflación acumuló más de quince puntos. Los tramos y deducciones de la parte estatal del IRPF no se actualizaron en esa medida.",
+      "Un estudio del Banco de España de 2024 calcula que ese efecto, llamado progresividad en frío, explica 0,79 de los 1,55 puntos de PIB en que aumentó la recaudación del impuesto entre 2019 y 2023.",
+      "El Gobierno cifra en 2.294 millones el ingreso adicional de 2025 y ha informado a la Comisión Europea de que no ajustará el impuesto al menos hasta 2028.",
+    ],
+    defensa: "Los ingresos extra han ayudado a reducir el déficit, y se han aprobado rebajas específicas para las rentas más bajas.",
+    critica: "Es una subida de impuestos a casi todos los asalariados que no pasa por el Congreso y que recae sobre todo en las rentas medias.",
+    pendiente: "Los tramos estatales del IRPF siguen sin ajustarse a la inflación acumulada desde 2021.",
+    enlace: { texto: "Ver la cronología de impuestos", href: "/impuestos" },
+    fuentes: [
+      {
+        titulo: "Banco de España. Progresividad en frío: el impacto de la inflación sobre la recaudación por IRPF",
+        url: "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/24/Fich/do2422.pdf",
+      },
+      {
+        titulo: "El Economista. Resumen del estudio del Banco de España",
+        url: "https://www.eleconomista.es/economia/noticias/12866007/06/24/la-mitad-del-alza-de-la-recaudacion-por-irpf-se-debe-a-no-deflactar-sus-tipos-segun-el-banco-de-espana.html",
+      },
+      {
+        titulo: "Crónica Global. Cifras del Gobierno y de la AIReF",
+        url: "https://cronicaglobal.elespanol.com/business/20260723/irpf-deflactar-provoca-subida-encubierta-impuestos-anuales/1003742781702_0.html",
+      },
+    ],
+  },
+  {
     slug: "melilla-2022",
     grupo: "contra-firme",
     tema: "fronteras",
@@ -224,6 +273,58 @@ export const TRIBUNALES: Punto[] = [
 ];
 
 export const DEPENDE: Punto[] = [
+  {
+    slug: "impuestos-y-cotizaciones",
+    grupo: "depende",
+    tema: "economia",
+    solidez: "Dato oficial (Agencia Tributaria y OCDE)",
+    titulo: "Más impuestos y más cotizaciones",
+    resumen: "La recaudación sube un 56 % desde 2018 y la carga sobre un sueldo medio llega al 41,4 %.",
+    cifras: [
+      { valor: "+56 %", nota: "1", texto: "de recaudación tributaria: de 208.685 millones en 2018 a 325.356 en 2025" },
+      { valor: "41,4 %", nota: "2", texto: "del coste de un sueldo medio se va en IRPF y cotizaciones, según la OCDE" },
+    ],
+    notas: [
+      {
+        marca: "1",
+        texto:
+          "No todo son subidas: hay más de tres millones de ocupados más e inflación. En 2025 la Agencia Tributaria atribuye a cambios normativos 2,7 de los 10,4 puntos de aumento.",
+      },
+      {
+        marca: "2",
+        texto: "La media de la OCDE es el 35,1 % y España ocupa el puesto 10 de 38. Entre 2015 y 2025 la carga subió 2,1 puntos aquí mientras bajaba en la OCDE.",
+      },
+      { marca: "+", texto: "La presión fiscal total, el 36,7 % del PIB en 2024, supera la media de la OCDE y es inferior a la de Italia o Francia." },
+    ],
+    entradilla:
+      "El Estado recauda mucho más que en 2018. Una parte viene de que hay más empleo y precios más altos, otra de impuestos nuevos y otra de no ajustar el IRPF a la inflación.",
+    comoPaso: [
+      "Las subidas aprobadas por ley se concentraron en rentas altas, ahorro, grandes patrimonios, banca, energéticas y grandes empresas, además de dos impuestos al consumo.",
+      "Lo que paga la mayoría subió por dos vías menos visibles: el IRPF sin ajustar a la inflación y las cotizaciones sociales, con un recargo nuevo para las pensiones desde 2023.",
+      "También hubo rebajas: el IVA de la luz y de los alimentos durante la crisis de precios, el IRPF de los sueldos más bajos y el impuesto de sociedades de las empresas pequeñas.",
+    ],
+    defensa: "España recauda menos que los grandes países europeos sobre su PIB, y las subidas explícitas recaen en quienes más tienen.",
+    critica: "La carga sobre un sueldo medio ha subido más que en el resto de la OCDE, por vías que pagan todos los asalariados.",
+    enlace: { texto: "Ver la cronología de impuestos", href: "/impuestos" },
+    fuentes: [
+      {
+        titulo: "Agencia Tributaria. Informe anual de recaudación de 2018",
+        url: "https://sede.agenciatributaria.gob.es/Sede/estadisticas/recaudacion-tributaria/informe-anual/ejercicio-2018/resumen.html",
+      },
+      {
+        titulo: "Agencia Tributaria. Los ingresos tributarios en 2025",
+        url: "https://sede.agenciatributaria.gob.es/Sede/informacion-institucional/puede-interesar/analisis/2026/junio/29/ingresos-tributarios-ano-2025.html",
+      },
+      {
+        titulo: "OCDE (vía El Diario de Madrid). Cuña fiscal de 2025",
+        url: "https://www.eldiariodemadrid.es/articulo/economia/espana-cuna-fiscal-salarios-ocde-2025/20260424123543128493.html",
+      },
+      {
+        titulo: "OCDE (vía elDiario.es). Presión fiscal de 2024",
+        url: "https://www.eldiario.es/economia/espana-no-infierno-fiscal-recaudacion-aumenta-sigue-lejos-grandes-europeas_1_12846009.html",
+      },
+    ],
+  },
   {
     slug: "amnistia-por-investidura",
     grupo: "depende",

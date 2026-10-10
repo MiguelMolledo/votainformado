@@ -63,6 +63,36 @@ Afirmaciones redactadas de memoria, sin contraste independiente en esta revisió
 - El voto del Congreso sobre el Sáhara de abril de 2022 y el espionaje con Pegasus.
 - Las llegadas a Canarias, el caso Delcy y el reparto de votos del Constitucional sobre la amnistía.
 
+## Impuestos y cotizaciones (añadido el 10 de octubre de 2026)
+
+Página `/impuestos` y dos puntos nuevos del balance.
+
+**Leído en el texto del BOE** (tipo, umbral y norma de cada entrada):
+
+- Ley 11/2020: IRPF del 47 % desde 300.000 €, seguros del 6 % al 8 %, exención de dividendos al 95 %, planes de pensiones a 2.000 €, bebidas azucaradas fuera del IVA reducido, escala de Patrimonio.
+- Ley 22/2021: tributación mínima del 15 % en Sociedades y planes de pensiones a 1.500 €.
+- Ley 31/2022: ahorro al 27 % y 28 %, Sociedades al 23 % para microempresas, reducción por rendimientos del trabajo hasta 19.747,5 €, base máxima de 4.495,50 €.
+- Ley 38/2022: banca 4,8 %, energéticas 1,2 %, grandes fortunas 1,7 %, 2,1 % y 3,5 % desde 3 millones.
+- Leyes 4/2020 y 5/2020: 3 % y 0,2 %. Ley 7/2022: 0,45 €/kg de plástico.
+- Real Decreto-ley 2/2023: recargo de pensiones de 0,6 a 1,2 puntos y cuota de solidaridad. Real Decreto-ley 28/2018: base máxima de 4.070,10 € (+7 %).
+- Ley 7/2024: ahorro al 30 % y tipos del impuesto a los vapeadores. Reales Decretos-leyes 12/2021 y 20/2022: IVA de la luz y de los alimentos.
+
+**Fuente oficial directa:** recaudación de 2018 y 2025 (Agencia Tributaria), estudio de progresividad en frío (Banco de España), orden de cotización de 2026 (BOE).
+
+**Dato oficial citado a través de un medio:** cuña fiscal y presión fiscal (OCDE), ingreso extra por no ajustar el IRPF (Gobierno) y previsión de la AIReF, recaudación de los impuestos nuevos (Hacienda), mínimo sin retención de 15.876 €, calendario de vuelta del IVA de los alimentos, rebajas de 2026.
+
+**Sin segunda comprobación:**
+
+- Que la subida del ahorro de 2021 partía del 23 % y la de Patrimonio del 2,5 %.
+- Que el límite de los planes de pensiones era de 8.000 € antes de 2021.
+- Que el impuesto a las transacciones financieras se aplica a empresas de más de 1.000 millones de capitalización (en la web se dice «grandes empresas»).
+- Que la cuota de solidaridad no genera derecho a más pensión.
+- La bajada gradual de Sociedades para pymes procede de un resumen de PwC, no del BOE.
+
+**Descartado:** la presión fiscal de 2018 (no localizada en fuente oficial), el tipo del nuevo impuesto a la banca, la cotización de los autónomos por ingresos reales y las subidas del tabaco, por no poder leer las cifras en la norma.
+
+La cronología no es exhaustiva: no incluye tributos autonómicos ni municipales, ni cambios menores.
+
 ## Enlaces
 
 `npm run comprobar` revisa todos los enlaces. En la última pasada respondían 99 de 102; dos (Euronews e Iberley) rechazan robots y el PDF de la AIReF falla desde el script pero abre en el navegador.
