@@ -950,3 +950,76 @@ h3 {
   background: var(--papel);
   border-top: 1px solid var(--regla);
 }
+
+/* Promesas */
+.promesas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.promesa {
+  border: 1px solid var(--borde);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--blanco);
+}
+.promesa-cabecera {
+  padding: 18px 24px 14px;
+  border-bottom: 1px solid var(--regla);
+}
+.promesa h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 4px 0 0;
+}
+.promesa-cuerpo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+}
+.promesa-dijo,
+.promesa-hizo {
+  padding: 18px 24px;
+}
+.promesa-hizo {
+  background: var(--papel);
+}
+.promesa-cuerpo p {
+  margin: 0 0 6px;
+}
+.promesa-cuando {
+  font-size: 14px;
+  color: var(--tinta-2);
+}
+.promesa-matiz {
+  margin: 0;
+  padding: 12px 24px;
+  border-top: 1px dashed var(--gris);
+  font-size: 15px;
+}
+.promesa-fuentes {
+  margin: 0;
+  padding: 10px 24px 14px;
+  border-top: 1px solid var(--regla);
+  font-size: 13px;
+  color: var(--tinta-2);
+}
+@media (max-width: 640px) {
+  .promesa-cabecera,
+  .promesa-dijo,
+  .promesa-hizo,
+  .promesa-matiz,
+  .promesa-fuentes {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .promesa h3 {
+    font-size: 21px;
+  }
+}
+
+.partido-enlace {
+  margin: 0;
+  padding: 0 20px 16px;
+  font-weight: 600;
+}

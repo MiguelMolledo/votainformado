@@ -31,6 +31,7 @@ Todo el contenido vive en `data/`:
 | `data/puntos.ts` | Une las listas y calcula el recuento |
 | `data/impuestos.ts` | Cronología de cambios de impuestos y cotizaciones (página `/impuestos`) |
 | `data/partidos.ts` | Propuestas anunciadas por PP, PSOE y Vox (página `/partidos`). Las fotos están en `public/partidos/` |
+| `data/promesas.ts` | Promesas del PSOE y lo que ocurrió después (página `/promesas`) |
 
 El recuento de la portada se calcula a partir de los datos: añadir, quitar o mover un punto lo actualiza solo.
 

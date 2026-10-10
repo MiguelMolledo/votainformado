@@ -15,6 +15,7 @@ export function Cabecera() {
             <Link href="/">Balance</Link>
             <Link href="/impuestos">Impuestos</Link>
             <Link href="/partidos">Partidos</Link>
+            <Link href="/promesas">Promesas</Link>
             <Link href="/#tribunales">Tribunales</Link>
             <Link href="/como-contamos">Cómo contamos</Link>
             <Cuenta />

@@ -104,6 +104,16 @@ Página `/partidos`: diez propuestas de PP, PSOE y Vox.
 - **La selección de diez es editorial.** No existe una lista oficial de «las diez más relevantes» de ningún partido.
 - **Fotos.** Las tres proceden de Wikimedia Commons con licencia que permite reutilizarlas: Feijóo (CC0, Partido Popular), Sánchez (atribución, Pool Moncloa / Carlos Spottorno de las Morenas) y Abascal (CC BY-SA 2.0, Gage Skidmore). Están recortadas y reducidas; el crédito figura bajo cada lista.
 
+## Promesas (añadido el 10 de octubre de 2026)
+
+Página `/promesas`: 19 promesas y compromisos de Sánchez y del PSOE, con lo que ocurrió después.
+
+- **Citas leídas en la fuente:** amnistía, indultos, Puigdemont y cumplimiento de la sentencia (El Español, 25/09/2023); Bildu, Podemos, referéndum ilegal, legislatura y Presupuestos (El Debate, 07/10/2026); factura de la luz (transcripción de La Moncloa).
+- **Tomado del resumen del buscador, sin abrir la página:** las hemerotecas de Newtral y Maldita.es rechazan o no devuelven el texto en la consulta automática. Afecta a los porcentajes de Pactocheck (60 % y 76 %), a las fechas de las declaraciones sobre Presupuestos, a la lista de la amnistía fiscal, al Sáhara y a las 184.000 viviendas. Conviene abrir cada enlace a mano.
+- **De memoria, sin segunda comprobación:** que el PSOE perdió escaños en noviembre de 2019; que la jornada de 37,5 horas cayó por los votos de PP, Vox y Junts; que la reforma laboral de 2021 no derogó la de 2012; que las cuatro promesas cumplidas figuraban en el acuerdo de coalición de 2019; que la eutanasia entró en vigor en junio de 2021.
+- **Descartado:** la subida de impuestos a rentas altas como promesa cumplida (el acuerdo de 2019 prometía más de lo que se aprobó y no se ha podido contrastar) y la frase «los indultos políticos deben acabar», sin fecha ni medio.
+- **Criterio:** la página no afirma que hubiera intención de engañar. La lista no es exhaustiva y la selección es editorial; por eso se dan también los porcentajes de Newtral y el enlace al balance del propio Gobierno.
+
 ## Enlaces
 
 `npm run comprobar` revisa todos los enlaces. En la última pasada respondían 99 de 102; dos (Euronews e Iberley) rechazan robots y el PDF de la AIReF falla desde el script pero abre en el navegador.

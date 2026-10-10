@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { PARTIDOS, PROPUESTAS_A } from "@/data/partidos";
 
 export const metadata: Metadata = {
@@ -76,6 +77,11 @@ export default function Partidos() {
                 </li>
               ))}
             </ol>
+            {p.id === "psoe" ? (
+              <p className="partido-enlace">
+                <Link href="/promesas">Ver qué prometió antes y qué pasó</Link>
+              </p>
+            ) : null}
             <p className="partido-credito">
               Foto:{" "}
               <a href={p.foto.url} target="_blank" rel="noopener noreferrer">
